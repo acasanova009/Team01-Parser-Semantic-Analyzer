@@ -231,8 +231,8 @@ def p_statement_if(p):
     '''statement : IF LPAREN logical_a RPAREN LBRACE block RBRACE '''
     #print('Resultado logico del "if"', p[3])
 
-    if(p[3]):
-        p[0] = p[6]
+    
+    p[0] = p[6]
     
     
 
